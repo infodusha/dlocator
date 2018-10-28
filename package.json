@@ -1,6 +1,6 @@
 {
   "name": "dlocator",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "description": "A simple dependency locator",
   "main": "index.js",
   "scripts": {
