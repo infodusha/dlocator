@@ -1,16 +1,25 @@
 {
   "name": "dlocator",
-  "version": "1.0.1",
-  "description": "A simple dependency locator",
+  "version": "1.0.2",
+  "description": "Dlocator is a version of service locator pattern with dependencies and services",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "infodusha",
+  "author": "infodusha <infodusha@ya.ru> (http://infodusha.ru)",
   "license": "ISC",
   "keywords": [
     "design pattern",
     "service locator",
     "dependency injection"
-  ]
+  ],
+  "homepage": "https://github.com/infodusha/dlocator#readme",
+  "bugs": {
+    "url" : "https://github.com/infodusha/dlocator/issues",
+    "email" : "infodusha@ya.ru"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/infodusha/dlocator.git"
+  }
 }
