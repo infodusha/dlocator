@@ -7,6 +7,7 @@ module.exports = class Application {
             throw new Error('Modules array in not specified');
         this.services = new Map();
         this.moduleClasses = moduleClasses;
+        this.getService = this.getService.bind(this);
     }
 
     getServices(module) {
@@ -50,10 +51,8 @@ module.exports = class Application {
         await this.afterInitModules(modules);
     }
 
-    get getService() {
-        return (serviceName) => {
-            return this.services.get(serviceName);
-        }
+    getService(serviceName) {
+        return this.services.get(serviceName);
     }
 
 }
