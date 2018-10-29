@@ -3,8 +3,6 @@
 Dlocator is a version of [service locator pattern][slp] with dependencies and services. It look like dependency container combined with service locator.
 
 ### Installation
-
-Dlocator requires [node](https://nodejs.org/) v4+ to run.
 `npm install dlocator --save`
 
 ### How to use
@@ -23,7 +21,7 @@ Module is a class. You must extend your module from that class. If you need you 
 
 ### Example
 
-Create Application(app.js):
+Create Application(/app.js):
 ```javascript
 const Application = require('dlocator');
 const modules = require('./modules/index.js');
@@ -101,8 +99,7 @@ module.exports = [
 
 ### Todos
 
- - Write Tests
- - Add Night Mode
+ - Write more tests
 
 License
 ----
