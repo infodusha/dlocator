@@ -2,6 +2,8 @@
 
 Dlocator is a version of [service locator pattern][slp] with dependencies and services. It look like dependency container combined with service locator.
 
+[![Build Status](https://travis-ci.org/infodusha/dlocator.svg?branch=master)](https://travis-ci.org/infodusha/dlocator)
+
 ### Installation
 `npm install dlocator --save`
 

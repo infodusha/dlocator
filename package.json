@@ -1,6 +1,6 @@
 {
   "name": "dlocator",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Dlocator is a version of service locator pattern with dependencies and services",
   "main": "index.js",
   "scripts": {
